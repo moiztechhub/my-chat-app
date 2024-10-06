@@ -1,0 +1,19 @@
+{
+  "name": "my-chat-app",
+  "version": "1.0.0",
+  "description": "A simple real-time chat application using Node.js and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chat", "socket.io", "express", "real-time", "nodejs"],
+  "author": "Moiz Bin Shafique",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.8.0"
+  }
+}

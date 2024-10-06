@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to your CSS file -->
+    <script defer src="/socket.io/socket.io.js"></script> <!-- Use relative path for production -->
+    <script defer src="js/client.js"></script> <!-- Link to your client-side JavaScript -->
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="images/chat.png" alt="Chat Logo"> <!-- Path to your logo image -->
+        <h1>Welcome to iDiscuss Chat App</h1>
+    </nav>
+    <div class="container">
+        <!-- Messages will be appended here -->
+    </div>
+    <div class="send">
+        <form id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Type a message..." required>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
